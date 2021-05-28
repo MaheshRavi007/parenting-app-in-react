@@ -1,0 +1,118 @@
+.summarycontainer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 80vw;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+
+
+
+.bydevices{
+    margin-right: 30px;
+}
+.deviceimage{
+    width: 140px;
+}
+.deviceimage>img{
+    width: 100%;
+    height: 100%;
+}
+.devicecontainer{
+    display: flex;
+    margin-top: 20px;
+
+}
+/* devicedetails */
+.time{
+    display: block;
+    color: #2f80ed;
+    text-align: right;
+}
+.chartcontainer{
+    display: flex;
+    width: auto;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-left: 50px;
+}
+.chartcontainer>span:nth-child(1){
+    font-size: 26px;
+    position: absolute;
+    font-weight: 400;
+    top: 125px;}
+/* canvas{
+      
+    padding: 70px;
+    padding-top: 20px;
+} */
+.legend{
+    display: flex;
+}
+.legend >span{
+    margin-left: 10px;
+}
+.legend >span>i{
+margin-right: 10px;
+}
+.class{
+color: #2f80ed;
+}
+.free-time{
+color:#61F17B ;
+}
+.study{
+    color:#FF9E57 ;
+}
+canvas{
+    width: 200px  !important;
+    height:200px !important;
+}
+.total-time{
+    position: absolute;
+
+    top: 159px;
+    left: 70px;
+    font-size: 22px;
+}
+.freetimeusage{
+    display: flex;
+    flex-direction: column;
+    height: 288px;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress-bar{
+    height: fit-content;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #c1e3ff;
+    overflow: hidden;
+    margin: 30px 0px;
+}
+.progressbar-progress{
+    height: 24px !important;}
+.labels-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.left>span{
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+}
+.right>span{
+    font-size: 20px;
+    font-weight: 700;
+
+}

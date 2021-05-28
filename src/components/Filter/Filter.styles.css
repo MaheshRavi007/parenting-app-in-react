@@ -1,0 +1,12 @@
+.filter-container{
+    display: flex;
+    width: 80vw;
+    background-color: white;
+    height: 30px;
+    margin: 30px 0px;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.add-button{
+    margin-left: 20px;
+}

@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    padding: 10px 0px;
+    width: 100vw;
+    background: rgb(107,150,255);
+background:linear-gradient(
+    90deg
+    , rgb(143 139 194) 0%, rgba(255,215,184,1) 47%, rgba(255,243,223,1) 100%);
+justify-content: space-between;
+}
+
+.navbtn>i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.profileimg{
+    border-radius: 50%;
+    width: 35px;
+    overflow: hidden;
+}
+.profileimg>img{
+    height: 100%;
+    width: 100%;
+}
+.username{
+    color:rgb(7, 7, 99);
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.leftside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.rightside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+
+}
+.fa-ellipsis-h{
+    margin-left: 20px;
+
+}
